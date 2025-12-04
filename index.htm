@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beauty Salon</title>
+    <style>
+        body { font-family: Arial; margin:0; padding:0; background:#f7f7f7; }
+        header { background:#e91e63; color:white; padding:20px; text-align:center; }
+        section { padding:20px; }
+        .service, .gallery img { background:white; padding:15px; margin:10px 0; border-radius:5px; }
+        .gallery img { width:150px; margin:10px; border:2px solid #e91e63; }
+        button { background:#e91e63; color:white; padding:8px 12px; border:none; cursor:pointer; }
+        input, select { width:100%; padding:8px; margin:5px 0; }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>✨ Glamour Beauty Salon ✨</h1>
+    <p>Your beauty, our passion</p>
+</header>
+
+<section>
+    <h2>💄 Our Services</h2>
+
+    <div class="service">
+        <h3>Facial Treatment</h3>
+        <p>Deep cleansing, glowing facial for all skin types.</p>
+        <strong>Price: ₹799</strong>
+    </div>
+
+    <div class="service">
+        <h3>Hair Spa</h3>
+        <p>Nourishing hair spa for smooth and shiny hair.</p>
+        <strong>Price: ₹999</strong>
+    </div>
+
+    <div class="service">
+        <h3>Manicure & Pedicure</h3>
+        <p>Relaxing hand and foot care treatment.</p>
+        <strong>Price: ₹599</strong>
+    </div>
+</section>
+
+<section>
+    <h2>📅 Online Booking</h2>
+    <form>
+        <label>Your Name:</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Phone Number:</label>
+        <input type="text" placeholder="Enter your phone number">
+
+        <label>Select Service:</label>
+        <select>
+            <option>Facial Treatment</option>
+            <option>Hair Spa</option>
+            <option>Manicure & Pedicure</option>
+        </select>
+
+        <label>Preferred Date:</label>
+        <input type="date">
+
+        <button type="submit">Book Appointment</button>
+    </form>
+</section>
+
+<section>
+    <h2>📸 Before & After Gallery</h2>
+    <div class="gallery">
+        <img src="before1.jpg" alt="Before">
+        <img src="after1.jpg" alt="After">
+
+        <img src="before2.jpg" alt="Before">
+        <img src="after2.jpg" alt="After">
+    </div>
+</section>
+
+</body>
+</html>
